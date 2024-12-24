@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+}
+.container{
+ color: white;
+text-align: center;
+ width: 380px;
+ background-color: #0f0f0f;
+ box-shadow: 0 0 10px 0 rgba(36, 221, 3, 0.9);
+ border-radius: 10px;
+border:5px solid rgb(4, 243, 4);
+padding: 20px 0;
+
+}
+.question{
+    text-align: left;
+    margin-left: 17px;
+   font-family: sans-serif;
+}
+.question span{
+    color: orangered;;
+}
+.score{
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#score{
+    color: yellow;
+    font-size:25px;
+}
+.question{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    background-color: rgb(53, 53, 53);
+    border: none;
+    color: #fff;
+    border: 2px solid white;
+}
+#submit{
+    background-color: rgb(49, 223, 1);
+    color: white;
+    padding: 10px;
+    width: 90%;
+    cursor: pointer;
+    margin: 10px 0;
+    border: none;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: rgb(41, 180, 3);
+
+
+}
+p{  text-align: left;
+    font-family: sans-serif;
+    padding: 10px;
+}
+#difficultybuttons{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#difficultybuttons #strengthOne{
+    padding:6px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(230, 151, 3);
+    border:none;
+    
+}
+#difficultybuttons #strengthOne:hover{
+   background-color: red;
+}
+#difficultybuttons #strengthOne:active{
+    scale: 0.9;
+}
+#difficultybuttons #strengthTwo{
+    background-color: orange;
+    padding: 6px 12px;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+#difficultybuttons #strengthTwo:hover{
+    background-color:rgb(102, 0, 255);
+}
+#difficultybuttons #strengthTwo:active{
+    scale: 0.9;
+}
