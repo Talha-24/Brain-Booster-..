@@ -105,3 +105,19 @@ p{  text-align: left;
 #difficultybuttons #strengthTwo:active{
     scale: 0.9;
 }
+
+
+@media (max-width: 530px) {
+    .container{
+        color: white;
+       text-align: center;
+        width: 70vmin;
+        background-color: #0f0f0f;
+        box-shadow: 0 0 10px 0 rgba(36, 221, 3, 0.9);
+        border-radius: 10px;
+       border:5px solid rgb(4, 243, 4);
+       padding: 20px 0;
+       
+       }
+    
+}
